@@ -25,7 +25,7 @@ Techniques are as follows:-
 7) Finally Snowball Stemming the word (it was obsereved to be better than Porter Stemming)
 8) After which we collect the words used to describe fake and real news
 
-Then we had used google pretrained model "GoogleNews-vectors-negative300" for more similar words and applied high dimensionality reduction technique TSNE.
+Then we had used google pretrained model "GoogleNews-vectors-negative300" for more similar words and applied high dimensionality reduction technique TSNE(t-distributed stochastic neighbor embedding).
 
 Then next, we converting word to vector, technique such as Average Word2Vector.
 
@@ -33,6 +33,8 @@ And after completing word2vector we applied classification techniques such as K 
 
 From which Logistic Regression gives the best accuracy of 92%.
 In logistic Rgression we use gridsearch and randomsearch for optimal C in L2 and L1 Regularization.
+
+![Image](https://ibb.co/mRRumo)
 
 ## Future
 We are hoping to Create a website, which will have our machine learning model as a backend and user will be able to paste any news article which he/she thinks is not legitimate.
