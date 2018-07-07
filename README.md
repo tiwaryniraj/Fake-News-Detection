@@ -34,7 +34,7 @@ And after completing word2vector we applied classification techniques such as K 
 From which Logistic Regression gives the best accuracy of 92%.
 In logistic Rgression we use gridsearch and randomsearch for optimal C in L2 and L1 Regularization.
 
-![Image](https://ibb.co/mRRumo)
+![Image](https://image.ibb.co/km7Oe8/img.png)
 
 ## Future
 We are hoping to Create a website, which will have our machine learning model as a backend and user will be able to paste any news article which he/she thinks is not legitimate.
