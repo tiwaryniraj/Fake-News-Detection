@@ -13,7 +13,7 @@ Pandas, Numpy, NLTK, Matplotlib, sklearn, word2vec-GoogleNews-vectors, TSNE for 
 We use Natural Language Processing to rectify the problem, We got a data set of 7000 news articles which is labelled as fake or real so we use 30% of the data to train the model and rest of 70% data to test the model, With this our project concluded with 92% of the accuracy.
 
 ## Project model explanation,
-We had use the csv file to read the data, the we applied the text preprocessing techniques as Stemming, Stop-word removal and lemmatization.
+We have use the csv file to read the data, then we applied the text preprocessing techniques as Stemming, Stop-word removal and lemmatization.
 
 Techniques are as follows:-
 1) Begin by removing the html tags
