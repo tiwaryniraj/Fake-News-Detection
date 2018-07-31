@@ -23,7 +23,7 @@ Techniques are as follows:-
 5) Convert the word to lowercase
 6) Remove Stopwords
 7) Finally Snowball Stemming the word (it was obsereved to be better than Porter Stemming)
-8) After which we collect the words used to describe fake and real news
+8) After which we collect the words used to describe fake and real news.
 
 Then we had used google pretrained model "GoogleNews-vectors-negative300" for more similar words and applied high dimensionality reduction technique TSNE(t-distributed stochastic neighbor embedding).
 
