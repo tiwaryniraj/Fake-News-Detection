@@ -16,7 +16,7 @@ We use Natural Language Processing to rectify the problem, We got a data set of 
 We have use the csv file to read the data, then we applied the text preprocessing techniques as Stemming, Stop-word removal and lemmatization.
 
 Techniques are as follows:-
-1) Begin by removing the html tags
+1) Begin by removing the html tags.
 2) Remove any punctuations or limited set of special characters like , or . or # etc.
 3) Check if the word is made up of english letters and is not alpha-numeric
 4) Check to see if the length of the word is greater than 2 (as it was researched that there is no adjective in 2-letters)
