@@ -7,7 +7,7 @@ Many research paper has been published in this area,As the readers come across m
 well detecting a fake news is not an easy task as that can be many definitions of a fake news, but is some extent it is possible using some machine learning models we will also be needing to use NLP techniques to make computer understand the news as there is a waste material of text involved.
 
 ## Dependencies
-Pandas, Numpy, NLTK, Matplotlib, sklearn, word2vec-GoogleNews-vectors, TSNE for high visualization better than PCA, Snowball Stemming, Gensim.
+Pandas, Numpy, NLTK, Matplotlib, Sklearn, word2vec-GoogleNews-vectors, TSNE for high visualization better than PCA, Snowball Stemming, Gensim.
 
 ## Overview
 We use Natural Language Processing to rectify the problem, We got a data set of 6335 news articles which is labelled as fake or real so we use 30% of the data to train the model and rest of 70% data to test the model, With this our project concluded with 92% of the accuracy.
