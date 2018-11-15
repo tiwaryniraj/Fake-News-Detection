@@ -42,7 +42,7 @@ df.head()
 y = df.label 
 
 # Drop the `label` column
-df.drop("label", axis=1)    #where numbering of news article is done that column is dropped in dataset
+df.drop("label", axis=1)      #where numbering of news article is done that column is dropped in dataset
 
 # Make training and test sets 
 X_train, X_test, y_train, y_test = train_test_split(df['text'], y, test_size=0.33, random_state=53)
